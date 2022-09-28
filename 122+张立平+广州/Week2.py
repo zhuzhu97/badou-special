@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import cv2
 
-
+#
 # 灰度化
 # 读照片-获取照片大小-创建同大小空白矩阵-给空白矩阵对应单元格灰度化并赋值-输出矩阵与图片
 Img=cv2.imread("lenna.png")
