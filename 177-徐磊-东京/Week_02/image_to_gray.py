@@ -18,7 +18,7 @@ img_gray_cv = np.zeros([h, w], dtype=img_cv.dtype)
 for i in range(h):
     for j in range(w):
         dot = img_cv[i][j]
-        img_gray_cv[i][j] = int(dot[0] * 0.3 + dot[1] * 0.59 + dot[2] * 0.11)
+        img_gray_cv[i][j] = int(dot[0] * 0.11 + dot[1] * 0.59 + dot[2] * 0.3)
 
 cv2.imshow('gray image',img_gray_cv)
 # cv2.waitKey(0)
