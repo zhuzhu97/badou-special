@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: Michael
+@author: rai jo
 
 彩色图像的灰度化、二值化
 """
