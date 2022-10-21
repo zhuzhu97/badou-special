@@ -40,6 +40,6 @@ def bilinear_interpolation(img, out_dim):
 
 if __name__ == '__main__':
     img = cv2.imread('lenna.png')
-    dst = bilinear_interpolation(img, (300, 300))
+    dst = bilinear_interpolation(img, (120, 120))
     cv2.imshow('bilinear interp', dst)
     cv2.waitKey()
