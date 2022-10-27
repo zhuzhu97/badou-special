@@ -1,4 +1,4 @@
-## Week 01
+## Week 02
 
 ### Task
 1.RGB转灰度图
