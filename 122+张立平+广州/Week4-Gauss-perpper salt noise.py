@@ -35,7 +35,6 @@ cv2.waitKey()
 '''
 
 
-
 '''
 Pepper - Salt noise
 指定SNR，[0,1]
